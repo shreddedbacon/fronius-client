@@ -39,7 +39,7 @@ type PowerFlowRealtimeData struct {
 				PAkku              interface{} `json:"P_Akku"`
 				PGrid              float64     `json:"P_Grid"`
 				PLoad              float64     `json:"P_Load"`
-				PPV                int         `json:"P_PV"`
+				PPV                float64     `json:"P_PV"`
 				RelAutonomy        float64     `json:"rel_Autonomy"`
 				RelSelfConsumption int         `json:"rel_SelfConsumption"`
 			} `json:"Site"`
